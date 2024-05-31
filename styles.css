@@ -1,0 +1,17 @@
+body {background-color: #ffe4c4;
+		margin: 0px;}
+h1 { background: linear-gradient(#8b0000,#ffe4c4);
+	 margin: 0px; }
+img {border-radius: 50%;}
+.headerTitle {font-size: 40pt;
+			left:40px; 
+			top: 20px;
+			position: relative;
+			font-family: serif; 
+			color: white;}
+.headerSubTitle {
+	font-size: 20pt;
+			left:40px; 
+			position: relative;
+			font-family: serif;
+			color: yellow;}
