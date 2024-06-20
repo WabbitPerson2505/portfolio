@@ -20,6 +20,10 @@ img.imgBanner { border-radius: 50%; }
 .sectionTitle { font-size: 20pt; 
 	margin-left: 20px;
 	margin-top: 40px; }
+
+.yatzyproj {
+	width: 110%;
+}
 p.projDesc { font-size: 12pt; }
 p { font-size: 15pt; 
 	margin-left: 30px;}
