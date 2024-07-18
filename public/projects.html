@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio</title>
+	<link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1>
+		<table>
+			<tr>
+				<td rowspan="2"> 
+					<img class="imgBanner" src=banner.png>
+				</td>
+				<td class="headerTitle">Yubo Zhu</td>
+			</tr>
+			<tr>
+				<td class="headerSubTitle">Database administrator</td>
+			</tr>
+		</table>
+	</h1>
+	<div>
+		<ul class="navList">
+			<li class="navItem"><a href="index.html">Home</a></li>
+			<li class="navItem"><a href="projects.html">Projects</a></li>
+			<li class="navItem"><a href="biblio.html">About me</a></li>
+		</ul>
+	</div>
+
+	<p class="sectionTitle">Projects</p>
+	<div class="sectionBorder"></div>
+
+	<div>
+		<p>Lists of projects:</p>
+		<ol class="projects">
+			<li class="projects">
+				Dataset prediction using java.
+				<p class="projDesc">
+					Previous project from iti1121 class. Coded in java, 
+					the aim of the program is to predict outcomes of a set of data provided
+					using problabilities. The project can only be run on datasets of csv
+					formats.
+				</p>
+				<p><img src=decisiontree.png></p>
+			</li>
+			<li class="projects">
+				Hotel database systems.
+				<p class="projDesc">
+					Previous project from csi2132. Conception of a simulated database to run
+					as the backend for a hotel reservation system. The purpose of the database is
+					perform the operation of a typical reservation system such as performing
+					reservations, loading reservations, adding hotels into the system. This
+					also includes the creation of reports and such. This project uses PostgreSQL
+					as the database and pgadmin as the database management tool.
+				</p>
+				<p><img src=dbmanager.png></p>
+			</li>
+			<li class="projects">
+				<a href="https://github.com/WabbitPerson2505/yatzy">Yatzy</a>
+				<p class="projDesc">
+					Project from csi3140 (Web). Implementation in html of a Yatzy game. Note this is Yatzy and 
+					not Yahtzee, Yatzy is a variation on Yahtzee and has some different rules from it. The game
+					can only run 1 round and not multiple games.
+				</p>
+				<p><img src=yatzygame.png class="yatzyproj"></p>
+			</li>
+		</ol>
+	</div>
+	
+</body>
+</html>
