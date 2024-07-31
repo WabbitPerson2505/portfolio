@@ -21,7 +21,7 @@ h1 { background: linear-gradient(#8b0000,#ffe4c4);
 	margin-left: 20px;
 	margin-top: 40px; }
 
-.yatzyproj { width: 110%; }
+.yatzyproj, .hospitalproj { width: 110%; }
 .navItem { display: inline; }
 .navList { list-style-type: none;
 		   margin-left:0px;
@@ -39,3 +39,7 @@ li.projects { margin-top: 20px;
 			  font-size: 13pt;
 			  width: 30%; }
 li { margin-left: 20px; }
+
+.datasetproj {
+	width: 75%;
+}
